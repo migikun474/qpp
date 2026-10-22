@@ -2,5 +2,5 @@
 import pathlib
 
 HERE = pathlib.Path(__file__).parent
-code = "\n".join((HERE / f).read_text() for f in ("template_top.py", "solution_part.py", "harness.py"))
+code = "\n".join((HERE / f).read_text() for f in ("personal_best_full.py", "harness.py"))
 exec(compile(code, "personal_best", "exec"), {"__name__": "__main__"})

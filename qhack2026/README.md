@@ -1,7 +1,7 @@
 # QHack 2026 – "Personal Best" unitary synthesis
 
-`solution_part.py` is the code to paste into the challenge editor: it replaces the empty
-`submission_circ` at the end of the template (the helpers go just above it).
+`personal_best_full.py` is the whole editable part of the challenge editor (template + solution),
+ready to paste over lines 1-287. `solution_part.py` is just the solution half.
 
 Local check (needs `pip install pennylane`): `python3 run_local.py`
 
