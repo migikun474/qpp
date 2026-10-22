@@ -19,3 +19,8 @@ global phase is removed, so no exact construction can use fewer, and 21.06% is t
 any exact rotation circuit can save at 5 qubits. The 60% Gold mark (518 rotations or
 fewer) is out of reach for exact synthesis under this cost model. See the solution header
 for how the construction works.
+
+If the editor re-indents pasted code, use `paste_one_line.txt` instead: leave the template
+untouched and paste that single line on line 287, just below the docstring of
+`submission_circ`. It decodes and runs `solution_part.py`, and works whether the line
+starts at column 0 or is indented into the function body.
